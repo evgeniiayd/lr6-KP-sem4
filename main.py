@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 from image import check_image
 
-
 app = Flask(__name__)
 
 
@@ -40,5 +39,5 @@ def login():
 
 
 if __name__ == '__main__':
-    app.run('127.0.0.1', 5000, debug=True)
+    app.run()
 
